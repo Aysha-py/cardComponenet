@@ -20,7 +20,7 @@ const CardComponent = () => {
                   </p>
                   <div className='price'>
                     <h1>$149.99 </h1>
-                    <h5><s>$169.99</s></h5>
+                    <h2><s>$169.99</s></h2>
                   </div>
                   <div className='cardButton'>
                     <img src={iconCart} alt="cart"/>
