@@ -1,5 +1,4 @@
 import React from 'react'
-import desktopimage from "../assets/img/image-product-desktop.jpg"
 import iconCart from "../assets/img/icon-cart.svg"
 
 const CardComponent = () => {
@@ -8,10 +7,7 @@ const CardComponent = () => {
         <main>
             <div id="container">
               <div className='cardContent'>
-                <div className='cardImage'>
-                    <img src={desktopimage} alt=""/>
-                </div>
-
+                <div className='cardImage'></div>
                 <div className="cardInfo">
                   <p className="title">P E R F U M E</p>
                   <h1>Gabrielle Essence Eau de perfum</h1>

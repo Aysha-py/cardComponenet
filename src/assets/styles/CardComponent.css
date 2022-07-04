@@ -12,12 +12,15 @@ html{
 #container .cardContent{
     display: flex;
     width: 50%;
-    margin: 50px auto;
-    max-width: 1440px;
-  
+    margin: 50px auto;  
 }
 #container .cardImage {
     width: 50%;
+    border-radius:20px 0 0 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/image-product-desktop.jpg);
 }
 
 #container .cardImage img{
@@ -31,7 +34,7 @@ html{
     border-radius:0px 20px 20px 0px;
     background-color: white;  
     width: 50%;
-    padding: 2em;
+    padding: 1em;
     line-height: 1.6;
 }
 #container .cardInfo h1{
@@ -77,6 +80,7 @@ html{
     #container .cardInfo{
         border-radius: 0; 
         width: 100%;
+        border-radius: 0px 0px 20px 20px;
       
     }
     #container .cardContent{
@@ -84,6 +88,7 @@ html{
         display: grid;
         margin: 0;
         padding: 20px;
+     
 
     }
     #container .cardImage img{
@@ -92,7 +97,12 @@ html{
     }
     #container .cardImage{
         width: 100%;
-        background-image: url(../img/icon-cart.svg);
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px 20px 0 0;
+        background-image: url(../img/image-product-mobile.jpg);
     }
     
     
